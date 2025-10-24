@@ -3,8 +3,9 @@ require('dotenv').config(); // Carrega variáveis do arquivo .env
 const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan'); // opcional, para logs de requisições
-const cors = require('cors'); // opcional, útil em APIs
+const cors = require('cors');
 const app = express();
+
 
 // Middleware padrão
 app.use(express.json());
