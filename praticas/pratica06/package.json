@@ -1,0 +1,12 @@
+{
+  "name": "pratica06",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.5.0",
+    "readline-sync": "^1.4.10"
+  }
+}
